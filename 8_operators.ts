@@ -18,3 +18,4 @@ type UserKeysNoMeta = Exclude<keyof User, '_id' | 'createdAt'>
 type UserKeysNoMeta2 = Pick<User, 'name' | 'email'>
 
 let u1: UserKeysNoMeta = 'name'
+
